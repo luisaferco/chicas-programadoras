@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Cat Adoption Center</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <main class="container">
+
+    <h1>🐱 Cat Adoption Center</h1>
+
+    <p class="subtitle">
+      Fill out the form to help a kitty find a home 💖
+    </p>
+
+    <!-- FORM -->
+
+    <form class="cat-form">
+
+      <div class="input-group">
+        <label for="name">Cat Name</label>
+
+        <input
+          type="text"
+          id="name"
+          placeholder="Example: Luna"
+        >
+      </div>
+
+      <div class="input-group">
+        <label for="age">Age</label>
+
+        <input
+          type="number"
+          id="age"
+          placeholder="2"
+        >
+      </div>
+
+      <div class="input-group">
+        <label for="color">Color</label>
+
+        <input
+          type="text"
+          id="color"
+          placeholder="Orange"
+        >
+      </div>
+
+      <div class="input-group">
+        <label for="personality">
+          Personality
+        </label>
+
+        <select id="personality">
+          <option>Playful</option>
+          <option>Sleepy</option>
+          <option>Curious</option>
+          <option>Friendly</option>
+        </select>
+      </div>
+
+      <div class="checkbox-group">
+
+        <input
+          type="checkbox"
+          id="vaccinated"
+        >
+
+        <label for="vaccinated">
+          Vaccinated 💉
+        </label>
+
+      </div>
+
+      <button type="submit">
+        Save Cat ✨
+      </button>
+
+    </form>
+
+    <!-- PREVIEW CARD -->
+
+    <section class="preview-card">
+
+      <img
+        src="https://cdn2.thecatapi.com/images/MTY3ODIyMQ.jpg"
+        alt="Cute cat"
+      >
+
+      <h2>Luna</h2>
+
+      <p>2 years old</p>
+
+      <p>Orange cat 🧡</p>
+
+    </section>
+
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
