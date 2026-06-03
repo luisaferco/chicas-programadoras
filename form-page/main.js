@@ -1,16 +1,9 @@
 const form = document.querySelector(".cat-form");
+const imgElement = document.getElementById("cat-image");
 
-const catNameInput = document.getElementById("name");
-const ageInput = document.getElementById("age");
-const colorInput = document.getElementById("color");
-const personalityInput =
-  document.getElementById("personality");
+// use a default cat image before the user submits the form
+document.getElementById("cat-image").src = "https://cdn2.thecatapi.com/images/2h1.jpg";
 
-const vaccinatedInput =
-  document.getElementById("vaccinated");
-
-const previewCard =
-  document.querySelector(".preview-card");
 
 form.addEventListener("submit", async function(event) {
 
@@ -26,39 +19,14 @@ form.addEventListener("submit", async function(event) {
 
   const catImage = data[0].url;
 
-  // Get form values
-  const catName = catNameInput.value;
-  const catAge = ageInput.value;
-  const catColor = colorInput.value;
-  const catPersonality =
-    personalityInput.value;
+document.getElementById("cat-image").src = catImage;
 
-  const isVaccinated =
-    vaccinatedInput.checked;
-
-  // Update preview card
   previewCard.innerHTML = `
   
     <img
       src="${catImage}"
       alt="Cute cat"
-    >
-
-    <h2>${catName}</h2>
-
-    <p>${catAge} years old</p>
-
-    <p>${catColor} cat 🐾</p>
-
-    <p>Personality: ${catPersonality}</p>
-
-    <p>
-      ${
-        isVaccinated
-          ? "Vaccinated 💉"
-          : "Not vaccinated"
-      }
-    </p>
+    >   
 
   `;
 });
