@@ -7,11 +7,10 @@ En el mundo tecnológico existen numerosas APIS predefinidas y con datos estable
 
 |plataforma| ¿Qué ofrece?|
 |----|-----|
-|rapidapi.com|Miles de APIs gratuitas y de pago|
-|github.com|Lista enorme de APIs públicas gratuitas|
-|postman.com|Catalogo de APIs listas para probar|
-|thecatapi.com|Imagenes de gatos|
-|jsonplaceholder.typecode.com|API falsa para practicar CRUD|
+|[rapidapi.com](https://rapidapi.com/)|Miles de APIs gratuitas y de pago|
+|[github.com](https://github.com/)|Lista enorme de APIs públicas gratuitas|
+|[thecatapi.com](https://thecatapi.com/)|Imagenes de gatos|
+|[jsonplaceholder.typicode](https://jsonplaceholder.typicode.com/)|API falsa para practicar CRUD|
 
 
 No tienes que reinventar la rueda, usar una API permite:
@@ -23,9 +22,9 @@ No tienes que reinventar la rueda, usar una API permite:
 
 ### Ejemplo práctico.
 
-La sesión para desarrollar de [thecatapi.com](https://developers.thecatapi.com/view-account/ylX4blBYT9FaoVd6OhvR?report=bOoHBz-8t) ofrece algunas solicitudes (requests) sin autenticación, para mayor volumen de información o detalle adicional inicia sesión navega a la pagina principal y dale click en 'GET YOUR API KEY' pero para la práctica de la sesión utiliza la siguiente ya creada: 
+La sesión para desarrollar de [dev.thecatapi.com](https://developers.thecatapi.com/view-account/ylX4blBYT9FaoVd6OhvR?report=bOoHBz-8t) ofrece algunas solicitudes (requests) sin autenticación, para mayor volumen de información o detalle adicional inicia sesión navega a la pagina principal y dale click en 'GET YOUR API KEY' pero para la práctica de la sesión utiliza la siguiente ya creada: 
 
-´´´
+```
 api_key: live_Q7ldBpaQxlJrVCRQWqzsnc4IcZhPNOpBKdrucDgBWK5VLJdvLNst8Oe7LeNKCVG1
-´´´
+```
 
